@@ -1,9 +1,10 @@
 {
-  "name": "starter-widget",
+  "name": "get-map-coordinates",
   "type": "widget",
   "version": "1.4.0",
   "exbVersion": "1.4.0",
-  "author": "Your Name",
+  "dependency": "jimu-arcgis",
+  "author": "Freda Zhang",
   "description": "A hello world starter widget",
   "copyright": "",
   "license": "",

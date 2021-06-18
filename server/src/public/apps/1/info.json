@@ -1,12 +1,12 @@
 {
-  "created": 1623689309965,
+  "created": 1624049013461,
   "description": "",
-  "id": "0",
-  "modified": 1624050146401,
+  "id": "1",
+  "modified": 1624049245605,
   "owner": "fredazhang",
   "tags": [],
   "thumbnail": null,
-  "title": "map1",
+  "title": "Untitled experience 1",
   "type": "Web Experience",
   "snippet": "",
   "typeKeywords": [
@@ -18,10 +18,6 @@
   ],
   "portalUrl": "https://enterprise.spatialstudieslab.org/portal",
   "username": "fredazhang",
-  "userRole": "custom_roles",
-  "success": true,
-  "text": "",
-  "clearEmptyFields": true,
-  "url": null,
-  "name": "map1"
+  "name": "Untitled experience 1",
+  "url": null
 }

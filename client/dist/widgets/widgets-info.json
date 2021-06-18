@@ -3798,6 +3798,35 @@
     "group": 4
   },
   {
+    "name": "get-map-coordinates",
+    "manifest": {
+      "name": "get-map-coordinates",
+      "type": "widget",
+      "version": "1.4.0",
+      "exbVersion": "1.4.0",
+      "dependency": "jimu-arcgis",
+      "author": "Freda Zhang",
+      "description": "A hello world starter widget",
+      "copyright": "",
+      "license": "",
+      "properties": {
+        "hasSettingPage": false,
+        "hasConfig": false
+      },
+      "translatedLocales": [
+        "en"
+      ],
+      "defaultSize": {
+        "width": 800,
+        "height": 500
+      }
+    },
+    "i18nLabel": {},
+    "i18nDescription": {},
+    "uri": "widgets/get-map-coordinates/",
+    "icon": "widgets/get-map-coordinates/icon.png"
+  },
+  {
     "name": "simple",
     "manifest": {
       "name": "simple",
@@ -3823,33 +3852,5 @@
     "i18nDescription": {},
     "uri": "widgets/simple/",
     "icon": "widgets/simple/icon.svg"
-  },
-  {
-    "name": "starter-widget",
-    "manifest": {
-      "name": "starter-widget",
-      "type": "widget",
-      "version": "1.4.0",
-      "exbVersion": "1.4.0",
-      "author": "Your Name",
-      "description": "A hello world starter widget",
-      "copyright": "",
-      "license": "",
-      "properties": {
-        "hasSettingPage": false,
-        "hasConfig": false
-      },
-      "translatedLocales": [
-        "en"
-      ],
-      "defaultSize": {
-        "width": 800,
-        "height": 500
-      }
-    },
-    "i18nLabel": {},
-    "i18nDescription": {},
-    "uri": "widgets/starter-widget/",
-    "icon": "widgets/starter-widget/icon.png"
   }
 ]

@@ -1,0 +1,314 @@
+{
+  "pages": {
+    "page_0": {
+      "id": "page_0",
+      "mode": "FIT_WINDOW",
+      "type": "NORMAL",
+      "layout": {
+        "LARGE": "layout_0"
+      },
+      "isDefault": true,
+      "isVisible": true,
+      "label": "Page 1"
+    }
+  },
+  "layouts": {
+    "layout_0": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "0%",
+            "right": "0%",
+            "top": "0%",
+            "bottom": "0%",
+            "width": "100%",
+            "height": "100%"
+          },
+          "widgetId": "widget_1",
+          "setting": {
+            "vCenter": false,
+            "hCenter": false,
+            "autoProps": {
+              "top": false,
+              "bottom": false,
+              "left": false,
+              "right": false,
+              "height": "STRETCH",
+              "width": "STRETCH"
+            }
+          }
+        }
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_1": {
+      "type": "FIXED",
+      "label": "Map FixedLayout",
+      "order": [
+        "0",
+        "1",
+        "2"
+      ],
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "83.5333%",
+            "right": "3.1195%",
+            "top": "42.1587%",
+            "bottom": "6.5249%",
+            "width": "13.3481%",
+            "height": "51.3179%"
+          },
+          "widgetId": "widget_2",
+          "isPending": false,
+          "setting": {
+            "vCenter": false,
+            "hCenter": false
+          }
+        },
+        "1": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "3.0255%",
+            "right": "83.5370%",
+            "top": "18.3633%",
+            "bottom": "59.5254%",
+            "width": "13.4375%",
+            "height": "22.1128%"
+          },
+          "widgetId": "widget_3",
+          "isPending": false,
+          "setting": {
+            "vCenter": false,
+            "hCenter": false
+          }
+        },
+        "2": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "3.7958%",
+            "right": "78.3478%",
+            "top": "45.2793%",
+            "bottom": "8.2090%",
+            "width": "17.8568%",
+            "height": "46.5132%"
+          },
+          "widgetId": "widget_4",
+          "isPending": false,
+          "setting": {
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      }
+    }
+  },
+  "exbVersion": "1.3.0",
+  "mainSizeMode": "LARGE",
+  "theme": "themes/default/",
+  "forBuilderAttributes": {
+    "lockLayout": false
+  },
+  "template": "blankfullscreen",
+  "attributes": {
+    "portalUrl": "https://enterprise.spatialstudieslab.org/portal"
+  },
+  "customTheme": {
+    "sharedThemeVariables": {
+      "header": {},
+      "body": {},
+      "button": {},
+      "logo": {
+        "small": "https://enterprise.spatialstudieslab.org/portal/sharing/rest/content/items/27e91603e9f74c71a4b37fd9f211472e/data",
+        "link": null
+      }
+    }
+  },
+  "widgets": {
+    "widget_1": {
+      "uri": "widgets/arcgis/arcgis-map/",
+      "version": "1.3.0",
+      "label": "Map 1",
+      "config": {
+        "toolConifg": {
+          "canZoom": true,
+          "canHome": true,
+          "canSearch": true,
+          "canNavigation": true
+        },
+        "isUseCustomMapState": false
+      },
+      "id": "widget_1",
+      "layouts": {
+        "MapFixedLayout": {
+          "LARGE": "layout_1"
+        }
+      },
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_1",
+          "mainDataSourceId": "dataSource_1"
+        }
+      ]
+    },
+    "widget_2": {
+      "uri": "widgets/arcgis/legend/",
+      "version": "1.3.0",
+      "label": "Legend 1",
+      "config": {},
+      "id": "widget_2",
+      "useMapWidgetIds": [
+        "widget_1"
+      ]
+    },
+    "widget_3": {
+      "uri": "widgets/arcgis/bookmark/",
+      "version": "1.3.0",
+      "label": "rice",
+      "config": {
+        "templateType": "CARD",
+        "isTemplateConfirm": true,
+        "isInitialed": false,
+        "bookmarks": [
+          {
+            "id": 1,
+            "name": "Bookmark-1",
+            "title": "Bookmark-1",
+            "type": "2d",
+            "imgParam": {},
+            "snapParam": {
+              "fileName": "widget_3-snap1-1623690699487.jpg",
+              "originalName": "widget_3-snap1-1623690699487",
+              "url": "${appResourceUrl}/images/widget_3/widget_3-snap1-1623690699487.jpg",
+              "type": "IMAGE",
+              "size": 445368,
+              "created": 1623690699495,
+              "resourcesPrefix": "images/widget_3",
+              "fileFormat": "image/png"
+            },
+            "imagePosition": "FILL",
+            "imgSourceType": "SNAPSHOT",
+            "extent": {
+              "spatialReference": {
+                "latestWkid": 3857,
+                "wkid": 102100
+              },
+              "xmin": -10627524.245212266,
+              "ymin": 3463745.5398274995,
+              "xmax": -10608969.156596066,
+              "ymax": 3475363.9681268306
+            },
+            "viewpoint": {
+              "rotation": 0,
+              "scale": 72223.819286,
+              "targetGeometry": {
+                "spatialReference": {
+                  "latestWkid": 3857,
+                  "wkid": 102100
+                },
+                "x": -10618246.700904166,
+                "y": 3469554.753977165
+              }
+            },
+            "graphics": [],
+            "showFlag": true,
+            "mapViewId": "widget_3editor-dataSource_1",
+            "mapDataSourceId": "dataSource_1",
+            "layersConfig": {
+              "386d15f98d504381b3b18c36c3fb4247": {
+                "layers": {},
+                "visibility": true
+              },
+              "81c10467c9014a53a6ad2a2be4f63584": {
+                "layers": {},
+                "visibility": true
+              }
+            }
+          }
+        ],
+        "initBookmark": false,
+        "runtimeAddAllow": false,
+        "autoPlayAllow": false,
+        "autoInterval": 3,
+        "autoLoopAllow": true,
+        "style": {
+          "id": "default"
+        },
+        "direction": "HORIZON",
+        "pageStyle": "PAGING",
+        "space": 10,
+        "scrollBarOpen": true,
+        "navigatorOpen": false,
+        "transition": "None",
+        "transitionDirection": "H",
+        "displayType": "SELECTED",
+        "itemHeight": 240,
+        "itemWidth": 240,
+        "transitionInfo": {
+          "transition": {
+            "type": "None",
+            "direction": "H"
+          },
+          "effect": {
+            "type": "None",
+            "option": {
+              "direction": "TOP",
+              "configType": "DEFAULT"
+            }
+          },
+          "oneByOneEffect": null,
+          "previewId": null
+        }
+      },
+      "id": "widget_3",
+      "useMapWidgetIds": [
+        "widget_1"
+      ]
+    },
+    "widget_4": {
+      "uri": "widgets/survey123/",
+      "version": "1.3.0",
+      "label": "Survey 1",
+      "config": {
+        "surveyItemId": "fbe429d5a8c049c38c15605eeb89a616",
+        "portalUrl": "",
+        "embeds": [
+          "fullScreen",
+          "onSubmitted"
+        ],
+        "hides": [
+          "navbar",
+          "header",
+          "description",
+          "footer",
+          "theme"
+        ],
+        "timestamp": 1623691334335
+      },
+      "id": "widget_4"
+    }
+  },
+  "widgetsManifest": {},
+  "views": {},
+  "sections": {},
+  "dialogs": {},
+  "dataSources": {
+    "dataSource_1": {
+      "type": "WEB_MAP",
+      "itemId": "fdc5a7e0e44f4b828baf3003f83d85e9",
+      "id": "dataSource_1",
+      "portalUrl": "https://enterprise.spatialstudieslab.org/portal"
+    }
+  },
+  "messageConfigs": {},
+  "pageStructure": [
+    {
+      "page_0": []
+    }
+  ]
+}

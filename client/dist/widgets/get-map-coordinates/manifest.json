@@ -8,15 +8,12 @@
   "description": "A hello world starter widget",
   "copyright": "",
   "license": "",
-  "properties": {
-    "hasSettingPage": false,
-    "hasConfig": false
-  },
+  "properties": {},
   "translatedLocales": [
     "en"
   ],
   "defaultSize": {
-    "width": 800,
-    "height": 500
+    "width": 200,
+    "height": 100
   }
 }

@@ -2,9 +2,10 @@
 import { React, AllWidgetProps, jsx } from 'jimu-core'
 import { JimuMapViewComponent, JimuMapView } from 'jimu-arcgis'
 import * as Point from 'esri/geometry/Point'
+import { IMConfig } from '../config'
 
 export default class Widget extends React.PureComponent<
-  AllWidgetProps<any>,
+  AllWidgetProps<IMConfig>,
   any
 > {
   state = {

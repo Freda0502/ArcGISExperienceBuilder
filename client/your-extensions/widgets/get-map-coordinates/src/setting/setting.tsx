@@ -2,9 +2,10 @@
 import { React, jsx } from 'jimu-core'
 import { AllWidgetSettingProps } from 'jimu-for-builder'
 import { JimuMapViewSelector } from 'jimu-ui/advanced/setting-components'
+import { IMConfig } from '../config'
 
 export default class Setting extends React.PureComponent<
-  AllWidgetSettingProps<any>,
+  AllWidgetSettingProps<IMConfig>,
   any
 > {
   onMapWidgetSelected = (useMapWidgetIds: string[]) => {

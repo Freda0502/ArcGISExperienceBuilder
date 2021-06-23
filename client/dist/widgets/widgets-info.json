@@ -3809,10 +3809,7 @@
       "description": "A hello world starter widget",
       "copyright": "",
       "license": "",
-      "properties": {
-        "hasSettingPage": false,
-        "hasConfig": false
-      },
+      "properties": {},
       "translatedLocales": [
         "en"
       ],

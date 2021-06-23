@@ -1,0 +1,19 @@
+{
+  "name": "get-map-coordinates",
+  "type": "widget",
+  "version": "1.4.0",
+  "exbVersion": "1.4.0",
+  "dependency": "jimu-arcgis",
+  "author": "Freda Zhang",
+  "description": "A hello world starter widget",
+  "copyright": "",
+  "license": "",
+  "properties": {},
+  "translatedLocales": [
+    "en"
+  ],
+  "defaultSize": {
+    "width": 200,
+    "height": 100
+  }
+}

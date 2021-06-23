@@ -1,0 +1,15 @@
+{
+  "env": {
+    "prod": {
+      "portalUrl": "https://www.arcgis.com",
+      "clientId": "experienceBuilder"
+    }
+  },
+  "devEnv": {
+    "prod": {
+      "portalUrl": "https://enterprise.spatialstudieslab.org/portal",
+      "clientId": "w2F8Q99eQgUSp3GZ",
+      "isWebTier": false
+    }
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "pages": {
+    "page_0": {
+      "id": "page_0",
+      "mode": "AUTO_SCROLL",
+      "type": "NORMAL",
+      "layout": {
+        "LARGE": "layout_0"
+      },
+      "isDefault": true,
+      "isVisible": true,
+      "label": "Page 1"
+    }
+  },
+  "layouts": {
+    "layout_0": {
+      "type": "FLOW",
+      "content": {
+        "1": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "53px",
+            "right": "453px",
+            "top": "-13px",
+            "bottom": "387px",
+            "width": "400px",
+            "height": 420
+          },
+          "widgetId": "widget_3",
+          "setting": {
+            "heightMode": "fixed"
+          }
+        }
+      },
+      "order": [
+        "1"
+      ]
+    },
+    "layout_2": {
+      "type": "ROW",
+      "label": "Default",
+      "order": [
+        "1",
+        "0"
+      ],
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": 2,
+            "width": 4,
+            "height": "400px"
+          },
+          "widgetId": "widget_4",
+          "setting": {
+            "heightMode": "fit"
+          }
+        },
+        "1": {
+          "type": "WIDGET",
+          "setting": {
+            "style": {},
+            "heightMode": "fit"
+          },
+          "bbox": {
+            "left": "0px",
+            "width": "2px",
+            "height": "398px"
+          },
+          "widgetId": "widget_2"
+        }
+      }
+    },
+    "layout_3": {
+      "type": "FIXED",
+      "label": "Map FixedLayout",
+      "content": {},
+      "order": []
+    }
+  },
+  "exbVersion": "1.3.0",
+  "mainSizeMode": "LARGE",
+  "theme": "themes/default/",
+  "forBuilderAttributes": {
+    "lockLayout": false
+  },
+  "template": "blankscrollable",
+  "attributes": {
+    "portalUrl": "https://enterprise.spatialstudieslab.org/portal"
+  },
+  "customTheme": {
+    "sharedThemeVariables": {
+      "header": {},
+      "body": {},
+      "button": {},
+      "logo": {
+        "small": "https://enterprise.spatialstudieslab.org/portal/sharing/rest/content/items/27e91603e9f74c71a4b37fd9f211472e/data",
+        "link": null
+      }
+    }
+  },
+  "widgets": {
+    "widget_2": {
+      "uri": "widgets/add-layers/",
+      "version": "1.4.0",
+      "label": "add-layers 1",
+      "config": {
+        "zoomToLayer": false
+      },
+      "id": "widget_2",
+      "useMapWidgetIds": [
+        "widget_4"
+      ]
+    },
+    "widget_3": {
+      "uri": "widgets/layout/row/",
+      "version": "1.3.0",
+      "label": "Block 2",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "number": [
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      },
+      "id": "widget_3",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_2"
+        }
+      }
+    },
+    "widget_4": {
+      "uri": "widgets/arcgis/arcgis-map/",
+      "version": "1.3.0",
+      "label": "Map 1",
+      "config": {
+        "toolConifg": {
+          "canZoom": true,
+          "canHome": true,
+          "canSearch": true,
+          "canNavigation": true
+        },
+        "isUseCustomMapState": false
+      },
+      "id": "widget_4",
+      "layouts": {
+        "MapFixedLayout": {
+          "LARGE": "layout_3"
+        }
+      }
+    }
+  },
+  "widgetsManifest": {},
+  "views": {},
+  "sections": {},
+  "dialogs": {},
+  "dataSources": {
+    "dataSource_1": {
+      "type": "WEB_MAP",
+      "itemId": "2dd46c61b2cc4fedb7b13bca51a90ba5",
+      "id": "dataSource_1",
+      "portalUrl": "https://www.arcgis.com"
+    }
+  },
+  "messageConfigs": {},
+  "pageStructure": [
+    {
+      "page_0": []
+    }
+  ],
+  "timestamp": 1624394166709
+}
